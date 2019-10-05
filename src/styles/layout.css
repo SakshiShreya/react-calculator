@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+
+.app {
+  max-width: 400px;
+  width: 50%;
+  background: var(--white);
+  border: 1px solid var(--black);
+  border-radius: 5px;
+  margin: auto;
+} 
