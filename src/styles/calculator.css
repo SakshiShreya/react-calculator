@@ -1,0 +1,20 @@
+.output-screen {
+  text-align: right;
+  padding: 16px;
+}
+
+.output-screen__history, .output-screen__output {
+  margin: 0;
+}
+
+.output-screen__output {
+  margin-top: 1rem;
+}
+
+.keypad__container__horizontal {
+  display: flex;
+}
+
+.keypad__row {
+  display: flex;
+}
