@@ -39,6 +39,13 @@
   width: 100%;
   padding: 1rem;
   font-size: 1.2rem;
+  border: 0px;
+  background: none;
+  color: inherit;
+}
+
+.key:focus {
+  outline: none;
 }
 
 .keypad__left-side {

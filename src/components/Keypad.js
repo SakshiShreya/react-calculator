@@ -5,43 +5,43 @@ const Keypad = props => (
     <div className="keypad__container__horizontal">
       <div className="keypad__left-side">
         <div className="keypad__row">
-          <span className="key">C</span>
-          <span className="key">+/-</span>
-          <span className="key">%</span>
+          <button className="key">C</button>
+          <button className="key">+/-</button>
+          <button className="key">%</button>
         </div>
         <div className="keypad__row">
-          <span className="key">7</span>
-          <span className="key">8</span>
-          <span className="key">9</span>
+          <button className="key">7</button>
+          <button className="key">8</button>
+          <button className="key">9</button>
         </div>
         <div className="keypad__row">
-          <span className="key">4</span>
-          <span className="key">5</span>
-          <span className="key">6</span>
+          <button className="key">4</button>
+          <button className="key">5</button>
+          <button className="key">6</button>
         </div>
         <div className="keypad__row">
-          <span className="key">1</span>
-          <span className="key">2</span>
-          <span className="key">3</span>
+          <button className="key">1</button>
+          <button className="key">2</button>
+          <button className="key">3</button>
         </div>
         <div className="keypad__row">
-          <span className="key">0</span>
-          <span className="key"></span>
-          <span className="key"></span>
+          <button className="key">0</button>
+          <button className="key"></button>
+          <button className="key"></button>
         </div>
       </div>
       <div className="keypad__right-side">
         <div className="keypad__row">
-          <span className="key">/</span>
+          <button className="key">/</button>
         </div>
         <div className="keypad__row">
-          <span className="key">X</span>
+          <button className="key">x</button>
         </div>
         <div className="keypad__row">
-          <span className="key">-</span>
+          <button className="key">-</button>
         </div>
         <div className="keypad__row">
-          <span className="key">+</span>
+          <button className="key">+</button>
         </div>
       </div>
     </div>
