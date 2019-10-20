@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <HashRouter>
         <div className="app">
-          <OutputScreen historyText="test" output="test2" />
+          <OutputScreen historyText="2 * 137.65" output="275.3" />
           <Keypad />
         </div>
       </HashRouter>

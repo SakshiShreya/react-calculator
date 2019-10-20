@@ -1,20 +1,66 @@
 .output-screen {
   text-align: right;
-  padding: 16px;
+  padding: 0 16px;
 }
 
-.output-screen__history, .output-screen__output {
+.output-screen__history,
+.output-screen__output {
   margin: 0;
 }
 
+.output-screen__history {
+  color: #96a19b;
+  font-size: 1.1em;
+  margin-top: 3rem;
+}
+
 .output-screen__output {
-  margin-top: 1rem;
+  color: var(--black);
+  font-size: 2.5em;
+  padding: 1rem 0; 
+  border-bottom: 2px solid var(--black);
 }
 
 .keypad__container__horizontal {
   display: flex;
+  padding: 0 10px;
 }
 
 .keypad__row {
   display: flex;
+}
+
+.keypad__container {
+  padding: 16px 0;
+}
+
+.key {
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.keypad__left-side {
+  width: 80%;
+}
+
+.keypad__right-side {
+  margin-left: 10px;
+  width: 20%;
+  background-color: var(--black);
+  color: var(--white);
+  border-radius: 100px;
+  box-shadow: 0.5px 0.5px 1px var(--black);
+}
+
+.equal-key {
+  background-color: #e05651;
+  width: 70%;
+  margin: 1rem auto;
+  text-align: center;
+  color: var(--white);
+  font-size: 2rem;
+  border-radius: 100px;
+  box-shadow: 0.5px 0.5px 1px var(--black);
 }

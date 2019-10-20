@@ -11,8 +11,8 @@ const Keypad = props => (
         </div>
         <div className="keypad__row">
           <span className="key">7</span>
-          <span className="key">9</span>
           <span className="key">8</span>
+          <span className="key">9</span>
         </div>
         <div className="keypad__row">
           <span className="key">4</span>
