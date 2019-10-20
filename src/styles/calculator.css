@@ -47,6 +47,7 @@
 
 .keypad__right-side {
   margin-left: 10px;
+  margin-bottom: 2.75rem;
   width: 20%;
   background-color: var(--black);
   color: var(--white);
