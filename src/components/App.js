@@ -1,16 +1,35 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { HashRouter } from 'react-router-dom';
 import OutputScreen from './OutputScreen';
 import Keypad from './Keypad';
 import '../styles/calculator.css';
 
-class App extends Component {
+class App extends React.Component {
+  state = {
+    output: 0,
+    historyText: 0
+  };
+
+  onKeyClick = key => {
+    console.log(key);
+    if (typeof key === 'number') {
+      this.setState(prevState => {
+        console.log(prevState);
+        return { output: prevState.output * 10 + key };
+      });
+    }
+  };
+
+  hello(key) {
+    console.log(key);
+  }
+
   render() {
     return (
       <HashRouter>
         <div className="app">
-          <OutputScreen historyText="2 * 137.65" output="275.3" />
-          <Keypad />
+          <OutputScreen historyText="2 * 137.65" output={this.state.output} />
+          <Keypad onKeyClick={this.onKeyClick} />
         </div>
       </HashRouter>
     );
