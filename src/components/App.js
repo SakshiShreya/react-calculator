@@ -11,13 +11,9 @@ class App extends React.Component {
   };
 
   onKeyClick = event => {
-    console.log(event);
     let key = event.target.value;
     if (parseInt(key) !== NaN) {
-      this.setState(prevState => {
-        console.log(prevState);
-        return { output: prevState.output * 10 + parseInt(key), historyText: prevState.historyText + key };
-      });
+      this.setState(prevState => ({ output: prevState.output * 10 + parseInt(key), historyText: prevState.historyText + key }));
     }
   };
 
